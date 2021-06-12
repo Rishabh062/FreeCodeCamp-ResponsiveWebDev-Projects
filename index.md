@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# FreeCodeCamp ResponsiveWebDev Projects
 
-You can use the [editor on GitHub](https://github.com/Rishabh062/FreeCodeCamp-ResponsiveWebDev-Projects/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### This repository contains all projects of Free code camp responsive web development course.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**This repository is open for all. If you want to improve design or wants to change anything then all type of valid pull request will be accepted.**
 
-### Markdown
+### How to contribute.
+* Step 1--> Fork this repo.
+* step 2--> Review the code
+* Step 3--> Do make a change
+* Step 4--> Generate a pull request (If possible do attach a screenshot as well.) 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**You are done.**
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Rishabh062/FreeCodeCamp-ResponsiveWebDev-Projects/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
