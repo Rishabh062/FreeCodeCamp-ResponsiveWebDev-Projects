@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+html,body{
+    min-width: 290px;   
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    background-color: #DDF4E9;
+    line-height: 1.5;
+    /* transition: cubic-bezier(0.95, 0.05, 0.795, 0.035); */
+}
+p{
+    font-size: 17px;
+    font-weight: 100;
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 290px;
+    height: 100%;
+    width: 300px;
+    border-right: solid;
+    border-color: #CD906A;
+}
+header{
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+#navbar ul{
+    height: 88%;   
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+#navbar li{
+    list-style: none;
+    color: rgb(41, 36, 36);
+    border-top: 1px solid;
+    position: relative;
+    width: 100%;
+}
+#navbar a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: rgb(41, 36, 36);
+}
+#main-doc{
+    position: absolute;
+    margin: 0 0 110px 310px;
+    padding: 20px;
+}
+#main-doc header{
+    text-align: left;
+    margin: 0;
+}
+section article{
+    margin: 15px;
+    color: rgb(41, 36, 36);
+    font-size: 0.96em;
+}
+section li{
+    margin: 15px 0 0 20px;
+}
+code{
+    display: block;
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    line-height: 2;
+    font-size: medium;
+}
+section p span{
+    color: red;
+}
+@media only screen and (max-width:815px){
+    #navbar{
+        background-color:#DDF4E9;
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 275px;
+        border: none;
+        z-index: 1;
+        border-bottom: 2px solid #CD906A; 
+    }
+    #navbar ul{
+        height: 207px;
+        border: 1px solid;
+    }
+    #main-doc{
+        position: relative;
+        margin-top: 300px;
+        margin-left: 0;
+    }
+
+}

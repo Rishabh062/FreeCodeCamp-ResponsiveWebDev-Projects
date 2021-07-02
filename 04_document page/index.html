@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Python:Easy Way</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Py Documentation</header>
+        <ul>
+            <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#Hello_world" class="nav-link">Hello World</a></li>
+            <li><a href="#Python_Comments" class="nav-link">Python Comments</a></li>
+            <li><a href="#Python_Variables" class="nav-link">Python Variables</a></li>
+            <li><a href="#Python_Booleans" class="nav-link">Python Booleans</a></li>
+            <li><a href="#Python_List" class="nav-link">Python List</a></li>
+            <li><a href="#Python_Tuples" class="nav-link">Python Tuples</a></li>
+            <li><a href="#Python_If_Else" class="nav-link">Python If Else</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>Python is a programming language that lets you work more quickly and integrate your systems more
+                    effectively. <strong>Python is an interpreted high-level general-purpose programming
+                        language</strong>
+                    Python's design philosophy emphasizes code readability with its notable use of significant
+                    indentation. Its language constructs as well as its object-oriented approach aim to help programmers
+                    write clear, logical code for small and large-scale projects.
+                </p>
+                <p>
+                    Python contains a rich set of libraries which make to code efficiently and faster. Python have a 
+                    broad market in todays world because we can do anything with it. From data analysis to space science.
+                </p>
+                <p>Uses of Python.</p>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Software Development</li>
+                    <li>Data science</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="Hello_world">
+            <header>Hello World</header>
+            <article>
+                <p>To get started with python, open your command line or code editor and make a file name hello.py</p>
+                <code>print("Hello World!")</code>
+                <p>Write this code and execute the file</p>
+                <code>
+                     #output<br>
+                     Hello World!
+                </code>
+            </article>
+        </section>
+        <section class="main-section" id="Python_Comments">
+            <header>Python Comments</header>
+            <article>
+           <ul>
+               <li>Comments can be use to explain python codes.</li>
+               <li>Comments can be use to make the code more redable.</li>
+               <li>Comments can be use to prevents execution while testing</li>
+           </ul>
+           <p>Creating a comments</p>
+           <code>
+               #This is a comment <br>
+               print("Hii everyone")
+           </code>
+           <p>You can also put comment at the end of statement.</p>
+           <code>print(5+2) #This is a comment</code>
+        </article>
+        </section>
+        <section class="main-section" id="Python_Variables">
+            <header>Python Variables</header>
+            <article>
+                <p>Variable are use to store data value.</p>
+                <h3>Creating a Variable.</h3>
+                <p>Python has no command for creating Variables</p>
+                <code>
+                    x=5<br>
+                    y="Rishabh"<br>
+                    z=2.3<br>
+                    a='abc'<br>
+                    print(x)<br>
+                    print(y)<br>
+                    print(z)<br>
+                    print(a)<br>
+                </code>
+                <h3>output</h3>
+                    <code>
+                        5<br>Rishabh<br>2.3<br>abc<br>
+                    </code>
+                    <p>Variables do not need to be declared with any particular type, and can even change type after they have been set</p>
+                    <code>
+                        x=4<br>x='Rishabh'<br>print(x)
+                    </code>
+                    <p>Output</p>
+                    <code>
+                        Rishabh
+                    </code>
+                    <h3>Get the type</h3>
+                    <code>
+                        print(type("Rishabh"))
+                    </code>
+                    <p>Output</p>
+                    <code>
+                        String
+                    </code>
+
+            </article>
+        </section>
+        <section class="main-section" id="Python_Booleans">
+            <header>Python Booleans</header>
+            <article>
+            <p>Python represent one of two values <span>True</span> or <span>False</span></p>
+            <code>
+                print(5==5)<br>print(3>6)<br>print(3!=3)
+            </code>
+            <p>Output</p>
+            <code>
+                True<br>False<br>False
+            </code>
+        </article>
+        </section>
+        <section class="main-section" id="Python_List">
+            <header>Python List</header>
+            <article>
+            <p>List are use to store multiple items in a single variable</p>
+            <p>List are created using square brackets</p>
+            <code>
+                x= ['Rishabh','Dwivedi','Developer','programmer']<br>print(x)
+            </code>
+            <p>output</p>
+            <code>
+                ['Rishabh','Dwivedi','Developer','programmer']
+            </code>
+            <p>Extracting particular item</p>
+            <code>
+                print(1)
+            </code>
+            <p>Output</p>
+            <code>
+                Dwivedi
+            </code>
+        </article>
+        </section>
+        <section class="main-section" id="Python_Tuples">
+            <header>Python Tuples</header>
+        <article>
+            <p>tuples are use to store multiple items in a single variable</p>
+            <p>tuples are created using common brackets</p>
+            <p>A tuple is a collection which is ordered and unchangeable</p>
+            <code>
+                myTupal=('apple','banana','orange')<br>print(myTupal)
+            </code>
+            <p>Output</p>
+            <code>
+                ('apple','banana','orange')
+            </code>
+        </article>
+        </section>
+        <section class="main-section" id="Python_If_Else">
+            <header>Python If Else</header>
+            <p>Python support some logical operations.</p>
+            <p>These conditions can be used with if statements and with for loops</p>
+            <h3>Example</h3>
+            <code>
+                x=3<br>y=5<br>
+                <span>if</span>
+                x < y:
+                <br>
+                &nbsp;
+                print("y is greater than x:")
+                <br>
+                <span>else:</span> 
+                <br>
+                &nbsp;
+                print("x is greater than y:")
+
+
+            </code>
+        </section>
+    </main>
+</body>
+
+</html>
