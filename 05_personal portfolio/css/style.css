@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Otomanopee One', sans-serif; */
+*{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Otomanopee One', sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --first-color-purple:#8562CB;
+    --second-color-blue:#6ACDB9;
+    --third-color-green:#98DDA7;
+    --first-color-dark:#000000;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    background: var(--first-color-purple);
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 0 rgb(231, 206, 94);
+    z-index: 6;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list{
+    display: flex;
+    margin-right: 2rem;
+}
+.nav-list a{
+    display: block;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.nav-list a:hover{
+    background-color: var(--second-color-blue);
+}
+.welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--first-color-dark);
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(62deg,#3a3d40 0%, #181719 100%);
+}
+h1{
+    font-size: 2.9rem;
+}
+h1{
+    /* font-family: 'Encode Sans SC', sans-serif; */
+    font-weight: 650;
+    /* line-height: 2rem; */
+    text-align: center;
+    color: white;
+}
+.welcome-section p{
+    color: var(--first-color-purple);
+    font-size: 1.6rem;
+    font-weight: 200;
+    font-style: italic;
+
+}
+.project-section{
+    background: var(--second-color-blue);
+    padding: 7rem 2rem;
+}
+.project-section-header{
+    margin: 0 auto 6rem auto;
+    max-width: 640px;
+    border-bottom: 0.2rem solid var(--first-color-dark);
+}
+h2{
+    text-align: center;
+    color: var(--first-color-dark);
+    
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+.project{
+    background: gray;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border-radius: 2px;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.project-img{
+    height: calc(100%-6.5rem);
+    width: 100%;
+    object-fit: cover;
+
+}
+.project-title{
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+    text-align: center;
+}
+.code{
+    color: gray;
+    transition: color 0.3s ease-out;
+}
+.code:hover{
+    color: coral;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    
+}
+.btn{
+    display: inline-block;
+    padding:1rem 2rem;
+    border-radius: 2px;
+    color: var(--first-color-dark);
+}
+@media(max-width:28.75em){
+    .nav{
+        justify-content: center;
+
+    }
+    .nav-list{
+        margin: 0 5rem;
+    }
+    .welcome-section h1{
+        font-size: 1.8rem;
+    }
+    .welcome-section p{
+        font-size: 1.4rem;
+    }
+}
